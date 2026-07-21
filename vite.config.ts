@@ -4,17 +4,10 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  optimizeDeps: {
-    include: ['lucide-react'],
-  },
+  base: './',
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
     sourcemap: false,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          leaflet: ['leaflet', 'react-leaflet', 'react-leaflet-markercluster']
-        }
-      }
-    }
-  }
+  },
 });
