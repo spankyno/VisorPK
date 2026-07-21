@@ -1,23 +1,100 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Puntos Kilométricos Aitor</title>
-    <meta name="description" content="Built with jdoodle.ai - Mapa interactivo de puntos kilométricos de carreteras españolas con múltiples capas base y controles de visualización" />
-    <meta property="og:title" content="Puntos Kilométricos Aitor - Mapa Carreteras España" />
-    <meta property="og:description" content="Built with jdoodle.ai - Mapa interactivo de puntos kilométricos de carreteras españolas con múltiples capas base y controles de visualización" />
+    
+    <!-- Título optimizado para SEO -->
+    <title>Puntos Kilométricos | Mapa Interactivo de Carreteras de España</title>
+    
+    <!-- Meta descripción optimizada -->
+    <meta name="description" content="Consulta el mapa interactivo de puntos kilométricos (PK) de las carreteras españolas creado por Aitor. Visualiza trazados, capas cartográficas y controles avanzados." />
+    <meta name="keywords" content="puntos kilometricos, carreteras españa, mapa PK, mapa interactivo carreteras, situacion PK españa, aitor" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://visorpkaitor.netlify.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://visorpkaitor.netlify.app/" />
+    <meta property="og:title" content="Puntos Kilométricos | Mapa Interactivo de Carreteras de España" />
+    <meta property="og:description" content="Mapa interactivo de puntos kilométricos (PK) de carreteras españolas con múltiples capas base y herramientas de visualización." />
     <meta property="og:image" content="https://imagedelivery.net/None/fbc78519j9b86j42b3ja9fej6beb0c573ace/public" />
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Puntos Kilométricos Aitor - Mapa Carreteras España" />
-    <meta name="twitter:description" content="Built with jdoodle.ai - Mapa interactivo de puntos kilométricos de carreteras españolas con múltiples capas base y controles de visualización" />
+    <meta name="twitter:url" content="https://visorpkaitor.netlify.app/" />
+    <meta name="twitter:title" content="Puntos Kilométricos Aitor | Mapa Interactivo de Carreteras de España" />
+    <meta name="twitter:description" content="Mapa interactivo de puntos kilométricos (PK) de carreteras españolas con múltiples capas base y herramientas de visualización." />
     <meta name="twitter:image" content="https://imagedelivery.net/None/fbc78519j9b86j42b3ja9fej6beb0c573ace/public" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>" />
+    
+    <!-- Preconexión a CDNs externas -->
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="dns-prefetch" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Datos Estructurados JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://visorpkaitor.netlify.app/#webapp",
+          "url": "https://visorpkaitor.netlify.app/",
+          "name": "Puntos Kilométricos",
+          "description": "Mapa interactivo de puntos kilométricos de carreteras españolas con múltiples capas base y controles de visualización.",
+          "applicationCategory": "MapApplication",
+          "operatingSystem": "All",
+          "inLanguage": "es",
+          "author": {
+            "@type": "Person",
+            "@id": "https://aitorsanchez.pages.dev/#author",
+            "name": "Aitor Sánchez Gutiérrez",
+            "url": "https://aitorsanchez.pages.dev/contacto"
+          },
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://aitorhub.vercel.app/#website",
+            "name": "Aitor Hub",
+            "url": "https://aitorhub.vercel.app"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://aitorsanchez.pages.dev/#author",
+          "name": "Aitor Sánchez Gutiérrez",
+          "url": "https://aitorsanchez.pages.dev",
+          "sameAs": [
+            "https://aitorhub.vercel.app",
+            "https://aitorsanchez.pages.dev/contacto"
+          ]
+        },
+        {
+          "@type": "Blog",
+          "@id": "https://aitorsanchez.pages.dev/#blog",
+          "name": "Blog de Aitor",
+          "url": "https://aitorsanchez.pages.dev",
+          "publisher": {
+            "@id": "https://aitorsanchez.pages.dev/#author"
+          }
+        },
+        {
+          "@type": "ContactPage",
+          "@id": "https://aitorsanchez.pages.dev/contacto/#contactpage",
+          "name": "Contacto - Aitor",
+          "url": "https://aitorsanchez.pages.dev/contacto"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
- 
